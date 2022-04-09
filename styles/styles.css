@@ -28,9 +28,17 @@ i{
     font-size: 30px;
 }
 
-.font-color-jonalismo{
+.f-globo{
+    font-family: GlobobrandRegular;
+}
+
+.font-color-jornalismo{
     color: #c4170c !important;
     font-family: GlobobrandRegular;
+}
+
+.bg-color-jornalismo{
+    background-color: #c4170c !important;
 }
 
 .font-color-globo{
@@ -48,6 +56,10 @@ i{
     font-family: GlobobrandRegular;
 }
 
+.bg-color-esporte{
+    background-color: #06aa48 !important;
+}
+
 .font-color-cartolafc{
     color: #ff7400 !important;
     font-family: GlobobrandRegular;
@@ -61,6 +73,10 @@ i{
 .font-color-entretenimento{
     color: #ff6700 !important;
     font-family: GlobobrandRegular;
+}
+
+.bg-color-entretenimento{
+    background-color: #ff6700 !important;
 }
 
 .font-color-quem{
@@ -87,4 +103,29 @@ i{
     color: #c4170c !important;
     font-size: 470% !important;
     font-weight: bold !important;
+}
+
+div.desc{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.116),rgba(0,0,0,1));
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    font-size: 25px;
+    padding: 0px 20px;
+}
+
+.fix{
+    width: 100%;
+    padding: 0px;
+}
+
+.no-padding{
+    padding: 0px !important;
+}
+
+.fw-titulo{
+    font-size: 50px;
 }
