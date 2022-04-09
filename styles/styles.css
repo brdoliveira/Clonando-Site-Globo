@@ -1,0 +1,90 @@
+/*
+jonalismo       -> #c4170c
+oglobo          -> #1e4c9a
+valor           -> #006767
+esporte         -> #06aa48
+cartolafc       -> #ff7400
+globoplay       -> #fb0234
+entretenimento  -> #ff6700
+quem            -> #333
+receitas        -> #a5147d
+gigaglobo       -> #00c4a2
+*/
+
+@font-face {
+    font-family: GlobobrandRegular;
+    src: url(../fonts/GlobobrandRegular.otf);
+}
+
+li{
+    list-style: none !important;
+}
+
+a{
+    font-size: 22px;
+}
+
+i{
+    font-size: 30px;
+}
+
+.font-color-jonalismo{
+    color: #c4170c !important;
+    font-family: GlobobrandRegular;
+}
+
+.font-color-globo{
+    color: #1e4c9a !important;
+    font-family: GlobobrandRegular;
+}
+
+.font-color-valor{
+    color: #006767 !important;
+    font-family: GlobobrandRegular;
+}
+
+.font-color-esporte{
+    color: #06aa48 !important;
+    font-family: GlobobrandRegular;
+}
+
+.font-color-cartolafc{
+    color: #ff7400 !important;
+    font-family: GlobobrandRegular;
+}
+
+.font-color-globoplay{
+    color: #fb0234 !important;
+    font-family: GlobobrandRegular;
+}
+
+.font-color-entretenimento{
+    color: #ff6700 !important;
+    font-family: GlobobrandRegular;
+}
+
+.font-color-quem{
+    color: #333 !important;
+    font-family: GlobobrandRegular;
+}
+
+.font-color-receitas{
+    color: #a5147d !important;
+    font-family: GlobobrandRegular;
+}
+
+.font-color-gigaglobo{
+    color: #00c4a2 !important;
+    font-family: GlobobrandRegular;
+}
+
+.col-height{
+    background-color: lightgrey;
+    height: 400px;
+}
+
+.noticia-principal{
+    color: #c4170c !important;
+    font-size: 470% !important;
+    font-weight: bold !important;
+}
