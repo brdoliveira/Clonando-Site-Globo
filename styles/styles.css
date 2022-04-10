@@ -9,6 +9,7 @@ entretenimento  -> #ff6700
 quem            -> #333
 receitas        -> #a5147d
 gigaglobo       -> #00c4a2
+top             -> #0031ff
 */
 
 @font-face {
@@ -70,6 +71,10 @@ i{
     font-family: GlobobrandRegular;
 }
 
+.bg-color-globoplay{
+    background-color: #fb0234 !important;
+}
+
 .font-color-entretenimento{
     color: #ff6700 !important;
     font-family: GlobobrandRegular;
@@ -92,6 +97,20 @@ i{
 .font-color-gigaglobo{
     color: #00c4a2 !important;
     font-family: GlobobrandRegular;
+}
+
+.font-color-bicho{
+    color: #513354 !important;
+    font-family: GlobobrandRegular;
+}
+
+.font-color-top{
+    color: #0031ff !important;
+    font-family: GlobobrandRegular;
+}
+
+.bg-color-top{
+    background-color: #0031ff !important
 }
 
 .col-height{
@@ -128,4 +147,31 @@ div.desc{
 
 .fw-titulo{
     font-size: 50px;
+}
+
+.aries-icon{
+    background-color: rgba(255, 103, 0, 0.1);
+}
+
+.aries-icon img{
+    filter: invert(54%) sepia(70%) saturate(4710%) hue-rotate(0deg) brightness(102%) contrast(105%) !important;
+}
+
+.signo-icon img{
+    filter: invert(75%) sepia(8%) saturate(349%) hue-rotate(181deg) brightness(86%) contrast(88%);
+}
+
+.banner{
+    height: 400px !important;
+}
+
+.footer{
+    background-color: rgb(236, 236, 236) !important;
+}
+
+.footer p{
+    color: darkslategray;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
 }
